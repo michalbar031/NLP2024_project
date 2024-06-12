@@ -1,0 +1,126 @@
+2024-06-13 01:28:06 INFO Running runs: []
+2024-06-13 01:28:06 INFO Running runs: []
+2024-06-13 01:28:06 INFO Running runs: []
+2024-06-13 01:28:06 INFO Agent received command: run
+2024-06-13 01:28:06 INFO Agent starting run with config:
+	MAB_selection: True
+	online_simulation_factor: 4
+	prioritized_strategies: 0
+	seed: 3
+2024-06-13 01:28:06 INFO About to run command: python StrategyTransfer.py --MAB_selection=True --online_simulation_factor=4 --prioritized_strategies=0 --seed=3
+2024-06-13 01:28:06 INFO Running runs: []
+2024-06-13 01:28:06 INFO Running runs: []
+2024-06-13 01:28:07 INFO Running runs: []
+2024-06-13 01:28:07 INFO Agent received command: run
+2024-06-13 01:28:07 INFO Agent starting run with config:
+	MAB_selection: True
+	online_simulation_factor: 4
+	prioritized_strategies: 1
+	seed: 3
+2024-06-13 01:28:07 INFO About to run command: python StrategyTransfer.py --MAB_selection=True --online_simulation_factor=4 --prioritized_strategies=1 --seed=3
+2024-06-13 01:28:07 INFO Agent received command: run
+2024-06-13 01:28:07 INFO Agent starting run with config:
+	MAB_selection: True
+	online_simulation_factor: 4
+	prioritized_strategies: 2
+	seed: 3
+2024-06-13 01:28:07 INFO About to run command: python StrategyTransfer.py --MAB_selection=True --online_simulation_factor=4 --prioritized_strategies=2 --seed=3
+2024-06-13 01:28:07 INFO Agent received command: run
+2024-06-13 01:28:07 INFO Agent starting run with config:
+	MAB_selection: True
+	online_simulation_factor: 3
+	prioritized_strategies: 0
+	seed: 3
+2024-06-13 01:28:07 INFO About to run command: python StrategyTransfer.py --MAB_selection=True --online_simulation_factor=3 --prioritized_strategies=0 --seed=3
+2024-06-13 01:28:07 INFO Agent received command: run
+2024-06-13 01:28:07 INFO Agent starting run with config:
+	MAB_selection: True
+	online_simulation_factor: 3
+	prioritized_strategies: 1
+	seed: 3
+2024-06-13 01:28:07 INFO About to run command: python StrategyTransfer.py --MAB_selection=True --online_simulation_factor=3 --prioritized_strategies=1 --seed=3
+2024-06-13 01:28:07 INFO Agent received command: run
+2024-06-13 01:28:07 INFO Agent starting run with config:
+	MAB_selection: True
+	online_simulation_factor: 3
+	prioritized_strategies: 2
+	seed: 3
+2024-06-13 01:28:07 INFO About to run command: python StrategyTransfer.py --MAB_selection=True --online_simulation_factor=3 --prioritized_strategies=2 --seed=3
+2024-06-13 01:28:11 INFO Running runs: ['vh4p8zei']
+2024-06-13 01:28:12 INFO Running runs: ['pbobedaw']
+2024-06-13 01:28:12 INFO Running runs: ['1urbze4v']
+2024-06-13 01:28:12 INFO Running runs: ['6h0pkmvy']
+2024-06-13 01:28:12 INFO Running runs: ['pth1waql']
+2024-06-13 01:28:12 INFO Running runs: ['6yuv1gb5']
+2024-06-13 01:32:20 ERROR 502 response executing GraphQL.
+2024-06-13 01:32:20 ERROR 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2024-06-13 01:32:45 ERROR 502 response executing GraphQL.
+2024-06-13 01:32:45 ERROR 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2024-06-13 01:33:00 ERROR 502 response executing GraphQL.
+2024-06-13 01:33:00 ERROR 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2024-06-13 01:33:30 ERROR 502 response executing GraphQL.
+2024-06-13 01:33:30 ERROR 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2024-06-13 01:34:01 ERROR 502 response executing GraphQL.
+2024-06-13 01:34:01 ERROR 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2024-06-13 01:35:17 ERROR 502 response executing GraphQL.
+2024-06-13 01:35:17 ERROR 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+

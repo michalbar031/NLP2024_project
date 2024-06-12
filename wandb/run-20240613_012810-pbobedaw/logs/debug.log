@@ -1,0 +1,43 @@
+2024-06-13 01:28:10,740 INFO    MainThread:3443728 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-06-13 01:28:10,741 INFO    MainThread:3443728 [wandb_setup.py:_flush():76] Configure stats pid to 3443728
+2024-06-13 01:28:10,741 INFO    MainThread:3443728 [wandb_setup.py:_flush():76] Loading settings from /home/student/.config/wandb/settings
+2024-06-13 01:28:10,741 INFO    MainThread:3443728 [wandb_setup.py:_flush():76] Loading settings from /home/student/HumanChoicePrediction/wandb/settings
+2024-06-13 01:28:10,741 WARNING MainThread:3443728 [wandb_setup.py:_flush():76] Unknown environment variable: WANDB_SERVICE
+2024-06-13 01:28:10,741 INFO    MainThread:3443728 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'michalbar', 'project': 'NLP2024_PROJECT_michalbar3', 'sweep_id': 'cne1ziqy', 'root_dir': '/home/student/HumanChoicePrediction', 'run_id': 'pbobedaw', 'sweep_param_path': '/home/student/HumanChoicePrediction/wandb/sweep-cne1ziqy/config-pbobedaw.yaml'}
+2024-06-13 01:28:10,741 INFO    MainThread:3443728 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-13 01:28:10,741 INFO    MainThread:3443728 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'StrategyTransfer.py', 'program_abspath': '/home/student/HumanChoicePrediction/StrategyTransfer.py', 'program': 'StrategyTransfer.py'}
+2024-06-13 01:28:10,741 INFO    MainThread:3443728 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-13 01:28:10,741 INFO    MainThread:3443728 [wandb_init.py:_log_setup():520] Logging user logs to /home/student/HumanChoicePrediction/wandb/run-20240613_012810-pbobedaw/logs/debug.log
+2024-06-13 01:28:10,741 INFO    MainThread:3443728 [wandb_init.py:_log_setup():521] Logging internal logs to /home/student/HumanChoicePrediction/wandb/run-20240613_012810-pbobedaw/logs/debug-internal.log
+2024-06-13 01:28:10,742 INFO    MainThread:3443728 [wandb_init.py:init():560] calling init triggers
+2024-06-13 01:28:10,742 INFO    MainThread:3443728 [wandb_init.py:init():567] wandb.init called with sweep_config: {'MAB_selection': True, 'online_simulation_factor': 4, 'prioritized_strategies': 1, 'seed': 3}
+config: {}
+2024-06-13 01:28:10,742 INFO    MainThread:3443728 [wandb_init.py:init():610] starting backend
+2024-06-13 01:28:10,742 INFO    MainThread:3443728 [wandb_init.py:init():614] setting up manager
+2024-06-13 01:28:10,750 INFO    MainThread:3443728 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-06-13 01:28:10,751 INFO    MainThread:3443728 [wandb_init.py:init():622] backend started and connected
+2024-06-13 01:28:10,766 INFO    MainThread:3443728 [wandb_run.py:_config_callback():1376] config_cb None None {'MAB_selection': True, 'online_simulation_factor': 4, 'prioritized_strategies': 1, 'seed': 3}
+2024-06-13 01:28:10,768 INFO    MainThread:3443728 [wandb_init.py:init():711] updated telemetry
+2024-06-13 01:28:10,782 INFO    MainThread:3443728 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-13 01:28:11,252 INFO    MainThread:3443728 [wandb_run.py:_on_init():2396] communicating current version
+2024-06-13 01:28:11,278 INFO    MainThread:3443728 [wandb_run.py:_on_init():2405] got version response upgrade_message: "wandb version 0.17.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-06-13 01:28:11,279 INFO    MainThread:3443728 [wandb_init.py:init():795] starting run threads in backend
+2024-06-13 01:28:15,497 INFO    MainThread:3443728 [wandb_run.py:_console_start():2374] atexit reg
+2024-06-13 01:28:15,497 INFO    MainThread:3443728 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-06-13 01:28:15,498 INFO    MainThread:3443728 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-06-13 01:28:15,498 INFO    MainThread:3443728 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-06-13 01:28:15,500 INFO    MainThread:3443728 [wandb_init.py:init():838] run started, returning control to user process
+2024-06-13 01:28:15,502 INFO    MainThread:3443728 [wandb_run.py:_config_callback():1376] config_cb None None {'ENV_HPT_mode': False, 'task': 'off_policy', 'ENV_LEARNING_RATE': 0.001, 'loss_weight_type': 'None', 'save_artifacts': True, 'strategies': None, 'total_epochs': 25, 'features': 'EFs', 'architecture': 'LSTM', 'hidden_dim': 32, 'layers': 2, 'transformer_nheads': 4, 'dropout': 0, 'human_train_size': 210, 'online_sim_type': 'before_epoch', 'basic_nature': 12, 'simulation_bot_per_user': 6, 'simulation_signal_error': 0.3, 'simulation_user_improve': 0.01, 'max_games': 4, 'zero_knowledge': True, 'bots_per_user': 6, 'SIMULATION_EFs_PATH': 'data/EFs_by_GPT35.csv', 'favorite_topic_method': 'review', 'agent': 'modelbasedRL', 'force_train': True, 'output_dim': 2, 'offline_simulation_size': 0, 'OFFLINE_SIM_DATA_PATH': 'data/LLM_games_personas.csv', 'personas_balanced': True, 'personas_group_number': -1}
+2024-06-13 01:28:15,503 INFO    MainThread:3443728 [wandb_config.py:__setitem__():151] config set FEATURES_PATH = data/EFs_by_GPT35.csv - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f7d9005fe20>>
+2024-06-13 01:28:15,503 INFO    MainThread:3443728 [wandb_run.py:_config_callback():1376] config_cb FEATURES_PATH data/EFs_by_GPT35.csv None
+2024-06-13 01:28:15,503 INFO    MainThread:3443728 [wandb_config.py:__setitem__():151] config set REVIEW_DIM = 37 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f7d9005fe20>>
+2024-06-13 01:28:15,503 INFO    MainThread:3443728 [wandb_run.py:_config_callback():1376] config_cb REVIEW_DIM 37 None
+2024-06-13 01:28:15,503 INFO    MainThread:3443728 [wandb_config.py:__setitem__():151] config set use_user_vector = True - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f7d9005fe20>>
+2024-06-13 01:28:15,503 INFO    MainThread:3443728 [wandb_run.py:_config_callback():1376] config_cb use_user_vector True None
+2024-06-13 01:28:15,504 INFO    MainThread:3443728 [wandb_config.py:__setitem__():151] config set online_simulation_size = 840 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f7d9005fe20>>
+2024-06-13 01:28:15,504 INFO    MainThread:3443728 [wandb_run.py:_config_callback():1376] config_cb online_simulation_size 840 None
+2024-06-13 01:28:15,504 INFO    MainThread:3443728 [wandb_config.py:__setitem__():151] config set input_dim = 60 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f7d9005fe20>>
+2024-06-13 01:28:15,504 INFO    MainThread:3443728 [wandb_run.py:_config_callback():1376] config_cb input_dim 60 None
+2024-06-13 01:28:15,504 INFO    MainThread:3443728 [wandb_config.py:__setitem__():151] config set wandb_run_id = pbobedaw - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f7d9005fe20>>
+2024-06-13 01:28:15,504 INFO    MainThread:3443728 [wandb_run.py:_config_callback():1376] config_cb wandb_run_id pbobedaw None

@@ -174,7 +174,10 @@ class OnlineSimulationDataSet(Dataset):
         zero_knowledge = config["zero_knowledge"]
         weight_type = self.config["loss_weight_type"]
         self.bots_per_user = config["bots_per_user"]
-
+        #new
+        self.prioritized_strategies_number = config["prioritized_strategies"]
+        self.MAB_selection = config["MAB_selection"]
+        #------------------------------------------
         self.n_users = int(n_users / self.bots_per_user * 6)
         max_active = int(max_active / self.bots_per_user * 6)
 
@@ -221,8 +224,9 @@ class OnlineSimulationDataSet(Dataset):
 
         self.add_to_user_id = DATA_CLEAN_ACTION_PATH_X_NUMBER_OF_USERS + DATA_CLEAN_ACTION_PATH_Y_NUMBER_OF_USERS
 
+
     class SimulatedUser:
-        def __init__(self, user_improve, basic_nature, favorite_topic_method, **args):
+        def __init__(self, user_improve, basic_nature,prioritized_strategies_number,MAB_selection, favorite_topic_method, **args):
             history_window = np.random.negative_binomial(2, 1 / 2) + np.random.randint(0, 2)
             quality_threshold = np.random.normal(8, 0.5)
             good_topics = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 19, 28, 42]
@@ -250,11 +254,29 @@ class OnlineSimulationDataSet(Dataset):
                                                                                             quality_threshold)),
                             4: ("LLM stochastic (Language-based)",  basic_nature[3], user_strategies.LLM_based(is_stochastic=True)),
                             5: ("LLM deterministic", basic_nature[4], user_strategies.LLM_based(is_stochastic=False)),
+                            6: ("cost_benefit_hybrid", basic_nature[5], user_strategies.cost_benefit_hybrid),
+                            # 7: ("confidence_based_action", basic_nature[6], user_strategies.confidence_based_action),
+                            # 8: ("semi_correct_action", basic_nature[7], user_strategies.semi_correct_action),
+                            # 6: ("RL based strategy", basic_nature[5], user_strategies.rl_based_strategy),
+                            # 7: ("Classifier based strategy", basic_nature[6], user_strategies.classifier_based_strategy)
                             }
             self.nature = np.random.rand(len(self.ACTIONS)) * np.array([v[1] for v in self.ACTIONS.values()])
             self.nature = self.nature / sum(self.nature)
             self.user_proba = self.nature.copy()
             self.user_improve = user_improve
+
+            # Multi-armed bandit attributes
+            self.successes = np.zeros(len(self.ACTIONS))
+            self.failures = np.zeros(len(self.ACTIONS))
+            self.total_rounds = 0
+
+            # Prioritize specific strategies
+            prioritized_strategies = utils.basic_nature_options.prioritized_strategies_pers[prioritized_strategies_number]
+            # prioritized_strategies = [2, 4, 6]  # Indices of prioritized strategies
+            for i in prioritized_strategies:
+                self.successes[i] = 5
+            # self.successes[prioritized_strategies] = 1  # Initial higher successes
+            self.MAB_selection = MAB_selection
 
         def return_to_init_proba(self):
             self.user_proba = self.nature.copy()
@@ -266,7 +288,28 @@ class OnlineSimulationDataSet(Dataset):
             self.user_proba[1:] = np.maximum(0, self.user_proba[1:])
             self.user_proba[0] = 1 - self.user_proba[1:].sum()
 
-    def play_round(self, bot_message, user, previous_rounds, hotel, review_id):
+        def select_action(self, round_num):
+            if round_num < 2:
+                valid_actions = list(self.ACTIONS.keys())
+                valid_actions.remove(0)
+                valid_actions.remove(2)
+                valid_actions.remove(5)
+                # valid_actions.remove(8)
+            elif round_num < 4:
+                # Prevent choosing oracle function in the first 2 rounds
+                valid_actions = list(self.ACTIONS.keys())
+                valid_actions.remove(0)
+                valid_actions.remove(1)
+                # valid_actions.remove(8)
+            else:
+                valid_actions = list(self.ACTIONS.keys())
+                valid_actions.remove(0)
+            # print(f"valid_actions: {valid_actions}")
+            # Use Thompson Sampling for multi-armed bandit selection
+            samples = [np.random.beta(self.successes[a] + 1, self.failures[a] + 1) for a in valid_actions]
+            return valid_actions[np.argmax(samples)]
+
+    def play_round1(self, bot_message, user, previous_rounds, hotel, review_id):
         user_strategy = self.sample_from_probability_vector(user.user_proba)
         user_strategy_function = user.ACTIONS[user_strategy][2]
         review_features = self.gcf[review_id]
@@ -277,6 +320,37 @@ class OnlineSimulationDataSet(Dataset):
                        "review_id": review_id}
         user_action = user_strategy_function(information)
         return user_action
+
+
+
+    def play_round(self, bot_message, user, previous_rounds, hotel, review_id, round_num):
+        if self.MAB_selection:
+            user_strategy = user.select_action(round_num)#mab
+            # print(f"round_num: {round_num}, user_strategy: {user_strategy}")
+            user_strategy_function = user.ACTIONS[user_strategy][2]
+            review_features = self.gcf[review_id]
+            # print(bot_message)
+            information = {
+                "bot_message": bot_message,
+                "previous_rounds": previous_rounds,
+                "hotel_value": hotel.mean(),
+                "review_features": review_features,
+                "review_id": review_id
+            }
+            user_action = user_strategy_function(information)
+    
+            # Update successes and failures for multi-armed bandit
+            correct = (hotel.mean() >= 8 and user_action == 1) or (hotel.mean() < 8 and user_action == 0)
+            if correct:
+                user.successes[user_strategy] += 1
+            else:
+                user.failures[user_strategy] += 1
+    
+            return user_action
+        else:
+            play_round1(bot_message, user, previous_rounds, hotel, review_id)
+            
+            
 
     @staticmethod
     def sample_from_probability_vector(probabilities):
@@ -337,8 +411,8 @@ class OnlineSimulationDataSet(Dataset):
         user_id = self.next_user
         assert user_id < self.n_users
         args = {"favorite_review": self.get_review()}
-        user = self.SimulatedUser(user_improve=self.user_improve, basic_nature=self.basic_nature,
-                                  favorite_topic_method="review", **args)
+        user = self.SimulatedUser(user_improve=self.user_improve, basic_nature=self.basic_nature, prioritized_strategies_number=self.prioritized_strategies_number,
+                                  MAB_selection= self.MAB_selection,favorite_topic_method="review", **args)
         bots = self.sample_bots()
         game_id = 0
         for bot in bots:
@@ -365,8 +439,10 @@ class OnlineSimulationDataSet(Dataset):
                     review_id = self.get_review_id(hotel_id, np.argmax(hotel == bot_message))
 
                     signal_error = np.random.normal(0, self.SIMULATION_SIGNAL_EPSILON)
+                    # user_action = self.play_round(bot_message + signal_error, user, previous_rounds,
+                    #                               hotel, review_id)  # DM plays
                     user_action = self.play_round(bot_message + signal_error, user, previous_rounds,
-                                                  hotel, review_id)  # DM plays
+                                                  hotel, review_id,round_number)  # DM plays
                     round_result = self.check_choice(hotel, user_action)  # round results
                     correct_answers += round_result
 
@@ -375,7 +451,7 @@ class OnlineSimulationDataSet(Dataset):
                     else:
                         self.n_dont_go += 1
 
-                    user.update_proba()  # update user vector
+                    # user.update_proba()  # update user vector
                     previous_rounds += [(hotel, bot_message, user_action)]
 
                     last_didGo_True = last_didGo == 1

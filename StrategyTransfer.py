@@ -63,11 +63,13 @@ parser.add_argument('--offline_simulation_size', type=int, default=0,
 parser.add_argument('--OFFLINE_SIM_DATA_PATH', type=str, default="data/LLM_games_personas.csv", help='LLM data path')
 parser.add_argument('--personas_balanced', type=str2bool, default=True, help='Personas balanced flag')
 parser.add_argument('--personas_group_number', type=int, default=-1, help='Personas group number')
+parser.add_argument('--prioritized_strategies', type=int, default=0, help='prioritized_strategies')
+parser.add_argument('--MAB_selection', type=bool, default=True, help='indicator for the way of DMs action selection')
 
 
 args = parser.parse_args()
 
-main_run = wandb.init(project='Strategy_Transfer_TACL')
+main_run = wandb.init(project='TEST MESSEG')#Strategy_Transfer_MAB2
 config = wandb.config
 
 config.update(args.__dict__)
