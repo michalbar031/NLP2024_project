@@ -2609,3 +2609,277 @@
 2024-06-13 02:14:44,500 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
 2024-06-13 02:14:45,855 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
 2024-06-13 02:14:46,501 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:14:46,822 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:14:48,502 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:14:50,503 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:14:50,955 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:14:51,826 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:14:52,504 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:14:54,505 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:14:56,010 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:14:56,505 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:14:56,827 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:14:58,506 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:00,507 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:01,062 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:15:01,828 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:15:02,508 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:04,509 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:06,083 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:15:06,510 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:06,829 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:15:08,511 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:10,511 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:11,109 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:15:11,440 DEBUG   SenderThread:3442478 [sender.py:send():378] send: stats
+2024-06-13 02:15:11,832 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:15:12,512 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:14,513 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:16,153 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:15:16,514 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:16,836 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:15:18,515 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:20,516 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:21,239 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:15:21,837 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:15:22,516 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:24,517 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:26,343 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:15:26,518 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:26,838 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:15:28,519 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:30,520 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:31,410 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:15:31,839 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:15:32,522 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:34,522 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:36,458 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:15:36,523 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:36,839 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:15:38,524 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:40,524 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:41,448 DEBUG   SenderThread:3442478 [sender.py:send():378] send: stats
+2024-06-13 02:15:41,534 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:15:41,842 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:15:42,525 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:44,526 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:46,527 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:46,620 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:15:46,845 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:15:48,527 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:50,528 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:51,662 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:15:51,846 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:15:52,530 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:54,531 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:56,532 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:15:56,760 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:15:56,848 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:15:58,533 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:00,533 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:01,813 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:16:01,851 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:16:02,534 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:04,535 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:06,536 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:06,854 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:16:06,855 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:16:08,537 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:10,538 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:11,441 DEBUG   SenderThread:3442478 [sender.py:send():378] send: stats
+2024-06-13 02:16:11,858 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:16:11,961 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:16:12,539 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:14,540 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:16,541 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:16,860 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:16:17,033 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:16:18,542 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:20,542 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:21,864 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:16:22,113 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:16:22,544 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:24,544 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:26,545 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:26,867 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:16:27,134 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:16:28,546 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:30,547 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:31,870 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:16:32,170 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:16:32,547 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:34,548 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:36,549 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:36,875 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:16:37,208 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:16:38,550 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:40,551 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:41,445 DEBUG   SenderThread:3442478 [sender.py:send():378] send: stats
+2024-06-13 02:16:41,877 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:16:42,263 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:16:42,552 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:44,552 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:46,553 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:46,879 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:16:47,290 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:16:48,554 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:50,555 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:51,881 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:16:52,418 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:16:52,556 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:54,557 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:56,558 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:16:56,882 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:16:57,426 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:16:58,558 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:00,559 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:01,886 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:17:02,527 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:17:02,560 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:04,561 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:06,562 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:06,887 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:17:07,570 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:17:08,564 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:10,564 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:11,444 DEBUG   SenderThread:3442478 [sender.py:send():378] send: stats
+2024-06-13 02:17:11,888 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:17:12,565 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:12,612 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:17:14,566 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:16,567 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:16,892 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:17:17,702 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:17:18,568 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:20,569 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:21,896 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:17:22,569 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:22,703 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:17:24,570 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:26,571 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:26,900 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:17:27,800 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:17:28,572 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:30,573 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:31,901 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:17:32,574 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:32,808 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:17:34,575 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:36,576 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:36,904 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:17:37,881 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:17:38,577 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:40,577 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:41,445 DEBUG   SenderThread:3442478 [sender.py:send():378] send: stats
+2024-06-13 02:17:41,907 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:17:42,578 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:42,996 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:17:44,579 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:46,580 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:46,910 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:17:48,087 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:17:48,581 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:50,582 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:51,912 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:17:52,582 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:53,205 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:17:54,583 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:56,584 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:17:56,915 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:17:58,274 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:17:58,585 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:00,586 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:01,916 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:18:02,587 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:03,370 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:18:04,588 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:06,589 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:06,919 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:18:08,465 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:18:08,589 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:10,590 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:11,446 DEBUG   SenderThread:3442478 [sender.py:send():378] send: stats
+2024-06-13 02:18:11,924 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:18:12,591 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:13,570 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:18:14,592 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:16,593 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:16,930 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:18:18,593 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:18,655 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:18:20,594 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:21,934 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:18:22,595 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:23,759 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:18:24,596 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:26,597 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:26,937 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:18:28,598 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:28,808 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:18:30,598 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:31,939 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:18:32,599 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:33,864 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:18:34,600 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:36,601 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:36,940 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:18:38,602 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:38,887 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:18:40,602 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:41,447 DEBUG   SenderThread:3442478 [sender.py:send():378] send: stats
+2024-06-13 02:18:41,942 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:18:42,603 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:43,908 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:18:44,604 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:46,605 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:46,946 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:18:48,606 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:49,039 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:18:50,607 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:51,949 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:18:52,608 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:54,078 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:18:54,608 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:56,609 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:56,950 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:18:58,610 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:18:59,080 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:19:00,611 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:01,951 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:19:02,612 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:04,193 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:19:04,613 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:06,614 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:06,952 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:19:08,615 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:09,200 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:19:10,616 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:11,458 DEBUG   SenderThread:3442478 [sender.py:send():378] send: stats
+2024-06-13 02:19:11,953 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:19:12,616 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:14,244 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:19:14,617 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:16,618 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:16,953 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:19:18,618 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:19,344 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:19:20,619 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:21,955 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:19:22,620 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:24,443 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:19:24,621 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:26,622 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:26,956 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:19:28,622 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:29,475 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:19:30,623 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:31,959 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:19:32,624 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:34,559 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:19:34,625 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:36,626 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:36,961 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-13 02:19:38,626 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:39,562 DEBUG   HandlerThread:3442478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-13 02:19:40,627 INFO    Thread-13 :3442478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/student/HumanChoicePrediction/wandb/run-20240613_012810-vh4p8zei/files/output.log
+2024-06-13 02:19:41,449 DEBUG   SenderThread:3442478 [sender.py:send():378] send: stats
